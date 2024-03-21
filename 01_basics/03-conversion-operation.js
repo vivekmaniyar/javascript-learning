@@ -15,8 +15,8 @@ let isLoggedIn = -565;
 // "Vivek" => true
 let booleanIsLoggedIn = Boolean(isLoggedIn);
 
-console.log(booleanIsLoggedIn);
-console.log(typeof booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
+// console.log(typeof booleanIsLoggedIn);
 
 let someNumber = -24;
 
@@ -25,3 +25,41 @@ let stringNumber = String(someNumber);
 
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
+
+// **** operations ****
+// console.log(2+2); // 4
+// console.log(2-2); // 0
+// console.log("vivek"+" maniyar"); // vivek maniyar
+// console.log("vivek" - " maniyar"); // NaN
+// console.log("1"+2); // 12
+// console.log(1+"2"); // 12
+// console.log("1"+2+3); // 123
+// console.log(1+2+"3"); // 33
+
+// Pre Increment
+let x = 3;
+let y = ++x;
+
+// console.log("x "+x); // 4
+// console.log("y "+y); // 4
+
+// Post Increment
+x = 4;
+y = x++;
+
+// console.log("x"+x); // 5
+// console.log("y"+y); // 4
+
+// Pre Decrement
+x = 5;
+y = --x;
+
+// console.log("x"+x); // 4
+// console.log("y"+y) // 4
+
+// Post Decrement
+x = 4;
+y = x--;
+
+// console.log("x"+x); // 3
+// console.log("y"+y); // 4
